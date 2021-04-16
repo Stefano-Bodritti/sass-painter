@@ -1,0 +1,38 @@
+.box {
+  display: flex;
+  align-items: center;
+  margin: 70px 0;
+
+  &.box_reverse {
+    flex-direction: row-reverse;
+
+    .box_text {
+      padding-right: 30px;
+    }
+  }
+
+  &_img {
+    width: 57%;
+
+    img {
+      width: 100%;
+    }
+  }
+
+  &_text {
+    width: 43%;
+
+    > p {
+      line-height: $line_height_p;
+    }
+  }
+
+  a {
+    color: $main_color;
+
+    &:hover {
+      color: $main_color_dark;
+      text-decoration: underline;
+    }
+  }
+}

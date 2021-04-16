@@ -52,7 +52,7 @@ body {
 
 .container {
   margin: 0 auto;
-  max-width: 1280px;
+  max-width: 1180px;
 }
 .container.container_small {
   max-width: 800px;
@@ -72,11 +72,15 @@ h3 {
 }
 
 section {
-  padding: 50px 0;
+  margin: 50px 0;
 }
 
 .text_center {
   text-align: center;
+}
+
+a {
+  text-decoration: none;
 }
 
 .btn {
@@ -121,4 +125,35 @@ section {
 
 #first_section p {
   line-height: 1.5;
+}
+
+.box {
+  display: flex;
+  align-items: center;
+  margin: 70px 0;
+}
+.box.box_reverse {
+  flex-direction: row-reverse;
+}
+.box.box_reverse .box_text {
+  padding-right: 30px;
+}
+.box_img {
+  width: 57%;
+}
+.box_img img {
+  width: 100%;
+}
+.box_text {
+  width: 43%;
+}
+.box_text > p {
+  line-height: 1.5;
+}
+.box a {
+  color: #1473e6;
+}
+.box a:hover {
+  color: #0d66d0;
+  text-decoration: underline;
 }
