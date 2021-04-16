@@ -3,3 +3,26 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+body {
+  font-family: 'Roboto', sans-serif;
+  font-size: $font_normal;
+}
+
+.container {
+  margin: 0 auto;
+  max-width: $container;
+
+  &.container_small {
+    max-width: $container_small;
+  }
+}
+
+h1 {
+  font-size: $font_big;
+}
+
+h3 {
+  font-size: $font_normal;
+  font-weight: normal;
+}

@@ -1,5 +1,80 @@
+.mt-5 {
+  margin-top: 5px;
+}
+
+.mt-10 {
+  margin-top: 10px;
+}
+
+.mt-15 {
+  margin-top: 15px;
+}
+
+.mt-20 {
+  margin-top: 20px;
+}
+
+.mt-25 {
+  margin-top: 25px;
+}
+
+.mt-30 {
+  margin-top: 30px;
+}
+
+.mt-35 {
+  margin-top: 35px;
+}
+
+.mt-40 {
+  margin-top: 40px;
+}
+
+.mt-45 {
+  margin-top: 45px;
+}
+
+.mt-50 {
+  margin-top: 50px;
+}
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  font-size: 18px;
+}
+
+.container {
+  margin: 0 auto;
+  max-width: 1280px;
+}
+.container.container_small {
+  max-width: 800px;
+}
+
+h1 {
+  font-size: 36px;
+}
+
+h3 {
+  font-size: 18px;
+  font-weight: normal;
+}
+
+#hero {
+  background-image: url("https://cc-prod.scene7.com/is/image/CCProdAuthor/dt-ps-max-poster-image?$pjpeg$&jpegSize=300&wid=1440");
+  background-size: cover;
+  background-position: center;
+  color: white;
+}
+#hero .container {
+  padding: 200px 0;
+}
+#hero .container img {
+  width: 70px;
 }
