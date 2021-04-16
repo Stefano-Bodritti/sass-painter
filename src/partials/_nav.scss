@@ -1,0 +1,25 @@
+nav {
+  background-color: white;
+  opacity: 85%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+
+  ul {
+    height: 70px;
+    font-size: $font_nav;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  li {
+    margin: 0 15px;
+
+    a {
+      color: $text_color;
+    }
+  }
+}

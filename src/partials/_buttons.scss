@@ -8,6 +8,11 @@
   font-size: $font_buttons;
   cursor: pointer;
 
+  &.btn_small {
+    font-size: $font_nav;
+    padding: 6px 15px;
+  }
+
   &:hover {
     color: black;
     background-color: white;
