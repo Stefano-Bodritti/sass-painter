@@ -66,10 +66,34 @@ h3 {
   font-weight: normal;
 }
 
+.btn {
+  background-color: transparent;
+  padding: 8px 36px;
+  border-radius: 25px;
+  border: 2px solid white;
+  color: white;
+  font-weight: bold;
+  font-size: 22px;
+  cursor: pointer;
+}
+.btn:hover {
+  color: black;
+  background-color: white;
+}
+.btn.btn_blue {
+  background-color: #1473e6;
+  border: 2px solid #1473e6;
+}
+.btn.btn_blue:hover {
+  background-color: #0d66d0;
+  border: 2px solid #0d66d0;
+  color: white;
+}
+
 #hero {
   background-image: url("https://cc-prod.scene7.com/is/image/CCProdAuthor/dt-ps-max-poster-image?$pjpeg$&jpegSize=300&wid=1440");
   background-size: cover;
-  background-position: center;
+  background-position: center 20%;
   color: white;
 }
 #hero .container {
@@ -77,4 +101,7 @@ h3 {
 }
 #hero .container img {
   width: 70px;
+}
+#hero .container .btn {
+  margin-right: 10px;
 }
